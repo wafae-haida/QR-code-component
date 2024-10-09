@@ -1,29 +1,24 @@
 body {
     background-color: #D5E1EF;
     font-family: 'Roboto', Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    box-sizing: border-box;
 }
 
 .flex-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 15px;
 }
 
 .container {
     background-color: white;
     border-radius: 15px;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
-    width: 90%;
-    max-width: 302px;
+    max-width: 230px;
 }
 
 .container img {
@@ -33,7 +28,6 @@ body {
 
 .attribution {
     text-align: center;
-    padding: 20px;
     font-size: 10px;
 }
 
@@ -47,8 +41,3 @@ body {
     font-size: 12px;
 }
 
-@media (min-width: 307px) {
-    .container {
-        width: 50%;
-    }
-}

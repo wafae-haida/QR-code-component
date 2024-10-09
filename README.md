@@ -31,43 +31,49 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+I learned how to use HTML5 for semantic markup, CSS for styling, and Flexbox for creating responsive layouts. I also explored the box-sizing: border-box; property to ensure consistent element sizing and the importance of media queries for a mobile-first workflow. Additionally, I've effectively integrated these concepts to create a well-structured, responsive webpage.
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="flex-container">
+  <div class="container">
+  </div>
+  <div class="attribution">
+  </div>
+</div>
 ```
 ```css
 .proud-of-this-css {
-  color: papayawhip;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 15px;
+  box-sizing: border-box;
+  padding: 15px;
+  max-width: 230px;
+  text-align: center;
+  font-family: 'Roboto', Arial, sans-serif;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+As a beginner in creating responsive pages, I've learned to use HTML and CSS for foundational web development. I'm excited to tackle more complex challenges with multiple components. I'll focus on mastering Flexbox and Grid layouts, refining media queries, and building reusable components like navigation bars and modals. 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Copilot] - This helped me understand and refine my web development skills. I really liked the clear explanations and practical advice, and I will definitely use these patterns going forward. Huge thanks to my trusty AI companion for guiding me through the process! 🌟
+- [w3schools](https://www.w3schools.com/Css/) - This Tutorial provided clear and concise explanations, helping me grasp CSS concepts effortlessly. It’s a fantastic resource for anyone looking to deepen their understanding of CSS. Highly recommended!
 
 ## Author
 
-- Website - [Wafae Haida](http://haida.my-style.in/?i=1)
+- Website - [Portfolio](http://haida.my-style.in/?i=1)
 - Frontend Mentor - [@wafae-haida](https://www.frontendmentor.io/profile/wafae-haida)
 - Linkedin - [Wafae Haida](https://www.linkedin.com/in/wafae-haida/?originalSubdomain=ma)
